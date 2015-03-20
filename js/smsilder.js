@@ -8,7 +8,7 @@ $(function () {
 	 },1000)
 
 	//获取图片数量
-	imgCount = $(".wrap img").size();
+	imgCount = $(".silderThun .wrap img").size();
 	
 	 //绑定左右点击事件
     $(".left").click(function () {
