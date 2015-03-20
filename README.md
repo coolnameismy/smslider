@@ -2,8 +2,8 @@
 
 web slider control,inclued two slider which is mastar slider and slave slider，they has cooperate effect。
 
-js写的一个图片切换效果，基于bootstrap的 图片轮询功能（carousel）改造的，增加除了主slider意外，增加了下方下图的slider效果，并且和
-主slider保持同步滚动。常用语html中的证明页面。
+js写的一个图片切换效果，基于bootstrap的 图片轮询功能（carousel）改造的，增加除了主slider意外，增加了下方下图的次slider效果，并且和
+主slider保持同步滚动。常用于web网站的正文页面或者web网站的首页显示图片slider效果。
 
 smslider基于jquery 和 bootstrap ,引用的js示例：
 	
