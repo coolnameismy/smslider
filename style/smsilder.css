@@ -1,0 +1,205 @@
+.slider .switch{
+    margin-top: -50px;
+    
+}
+
+.slider{
+    /* height: 400px; */
+    height: 560px;
+    display: block;
+    width: 100%;
+    margin-left: 20px;
+
+}
+
+
+.slider .silderThun{
+    margin-top: 26px;
+    /* width: 800px; */
+    overflow-x: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+
+}
+.slider .silderThun .wrap{
+    
+}
+.slider .silderThun ul{
+    
+}
+.slider .silderThun ul li{
+    
+}
+.slider .switch .left{
+    float: left;
+    text-indent: -9999px;
+    cursor: pointer;
+    margin-top: 0px;
+
+         
+}
+.slider .switch .right{
+    float: right;
+     text-indent: -9999px;
+    cursor: pointer;
+
+}
+.slider .silderThun .wrap{
+    word-wrap: break-word;
+    white-space: nowrap;
+    
+}
+.slider .silderThun .wrap .cur{
+    width: 100px;
+    height: 75px;
+    padding: 2px;
+    border: 3px solid rgba(255,0,0,0.9);
+    
+    
+}
+
+
+.slider .silderThun .wrap img{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 2px;
+    box-shadow: 0 0 6px rgba(0,0,0,.3);;
+    
+}
+.slider .silderThun ul{
+    margin: 10 0 auto;
+    width: 1200px;
+    height: 82px;;;
+
+}
+.slider .silderThun ul li{
+    width: 100px;
+    display: block;
+    float: left;
+
+}
+.slider .silderThun .wrap .placeholder{
+    display: inline;
+    padding-left: 222px;
+     
+}
+.slider .upside-left:hover{
+    position: relative;
+    top: -320px;
+    left: 30px;
+    background: url("img/left_l_c.jpg") 50%  no-repeat;
+
+}
+.slider .upside-left{
+    position: relative;
+    top: -320px;
+     left: 30px;
+     background: url("img/left_l_n.png") 50%  no-repeat;
+     width: 54px;
+     height: 54px;
+     background-color: #666666;
+   
+}
+
+.slider .downside-left:hover{
+    position: relative;
+     width: 20px;
+     height: 65px;
+    background: url("img/left_s_c.png") 50%  no-repeat;
+    top: -19px;
+    left: 100px;
+}
+
+.slider .downside-left{
+    position: relative;
+    top: -19px;
+    left: 100px;
+     background: url("img/left_s_n.png") 50%  no-repeat;
+     width: 20px;
+     height: 65px;
+    border: 2px solid #C5C3C3;
+    
+}
+.slider .upside-right:hover{
+    position: relative;
+     right: 30px;
+       width: 54px;
+    height: 54px;
+    background: url("img/right_l_c.jpg") 50%  no-repeat;
+     top: -320px;
+
+}
+.slider .upside-right{
+    position: relative;
+    background: url("img/right_l_n.png") 50%  no-repeat;
+    width: 54px;
+    height: 54px;
+    background-color: #666666;
+    right: 30px;
+    top: -320px;
+}
+
+
+.slider .downside-right:hover{
+    position: relative;
+     background: url("img/right_s_c.png") 50%  no-repeat;
+     top: -20px;
+    right: 105px;
+}
+
+
+.slider .downside-right{
+    position: relative;
+    top: -20px;
+    right: 105px;
+    background: url("img/right_s_n.png") 50%  no-repeat;
+    width: 20px;
+    height: 65px;
+    border: 2px solid #C5C3C3;
+}
+ 
+.slider .curindicator{
+  /*   border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid red;
+    width: 0;
+    height: 0;
+    position: relative;
+    top: -29px;
+    left: 477px; */
+    
+}
+
+#carousel-generic{
+    
+}
+.carousel-caption{
+   
+
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+}
+.carousel-inner{
+    width: 80%;
+    margin-left: 10%;;
+}
+.carousel-inner img{
+}
+.carousel-inner .item{
+    height: 100%;
+    padding: 3px;
+    border: 1px solid#dadada;
+}
+
+.carousel-inner .item img{
+    height: 420px;
+    width: 100%;
+
+}
+.carousel-control.left{
+    background-image: none;
+}
+.carousel-control.right{
+    background-image: none;
+}
