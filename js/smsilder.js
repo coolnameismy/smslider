@@ -1,3 +1,43 @@
+/**
+ * Modify by liuyanwei on 15/3/26.
+ */
+
+$(function(){
+
+    $.fn.smsilder = function(){
+
+        var imgs = [];
+        this.find("li img").each(function(){
+            var imgsrc =  $(this).attr("src");
+            imgs.push(imgsrc);
+        });
+        var smSilderconfig = {
+            "imgData":imgs,
+            "scroll_offset":115//小图偏右scroll_offset减，小图偏左scroll_offset加,便宜和具体的silder的宽度有关系
+
+        };
+        var silderHtml = "<div id='carousel-generic' class='carousel slide' data-ride='carousel'>"+
+                         "<div class='carousel-inner' role='listbox'></div>"+
+                         "<div class='silderThun'><div class='wrap'></div></div>"+
+                         "</div>";
+
+        var switchHtml =    "<div class='switch'>"+
+                            "<div class='upside-left left'>left</div>"+
+                            "<div class='upside-right right'>right</div>"+
+                            "<div class='downside-left left'>left</div>"+
+                            "<div class='downside-right right'>right</div>"+
+                            "<div class='curindicator'></div>"+
+                            "</div>";
+
+        this.html(silderHtml+switchHtml);
+        this.addClass("slider");
+
+        //初始化SmSilder
+        initSmSilder(smSilderconfig);
+    }
+
+})
+
 
 
 
@@ -24,12 +64,12 @@ var initSmSilder = function(smSilderconfig){
         var msilderImageHtmlString = "<div class=\"placeholder\"></div>";
         for(var i=0;i<imgCount;i++){
             if(i==0){
-                ssilderImageHtmlString += " <div class=\"item active\"><img src='"+ smSilderconfig.imgData[i].src+"'></div>";
-                msilderImageHtmlString += " <img class=\"cur\" src='"+ smSilderconfig.imgData[i].src+"'>";
+                ssilderImageHtmlString += " <div class=\"item active\"><img src='"+ smSilderconfig.imgData[i]+"'></div>";
+                msilderImageHtmlString += " <img class=\"cur\" src='"+ smSilderconfig.imgData[i]+"'>";
             }
             else{
-                ssilderImageHtmlString += " <div class=\"item\"><img src='"+ smSilderconfig.imgData[i].src+"'></div>";
-                msilderImageHtmlString += " <img src='"+ smSilderconfig.imgData[i].src+"'>";
+                ssilderImageHtmlString += " <div class=\"item\"><img src='"+ smSilderconfig.imgData[i]+"'></div>";
+                msilderImageHtmlString += " <img src='"+ smSilderconfig.imgData[i]+"'>";
             }
 
         }

@@ -16,43 +16,39 @@
 </head>
 <body>
 <h1>js使用Slider示例 smsSilder js usage</h1>
+
 <div class="slider">
-    <div id="carousel-generic" class="carousel slide" data-ride="carousel">
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox"> </div>
-
-        <div class="silderThun"><div class="wrap"></div> </div>
-    </div>
-    <div class="switch">
-        <div class="upside-left left">left</div>
-        <div class="upside-right right">right</div>
-        <div class="downside-left left">left</div>
-        <div class="downside-right right">right</div>
-        <div class="curindicator"></div>
-    </div>
+    <ul>
+        <li><img src="image/newspic1.png" alt=""/></li>
+        <li><img src="image/newspic2.png" alt=""/></li>
+        <li><img src="image/newspic3.png" alt=""/></li>
+        <li><img src="image/newspic4.png" alt=""/></li>
+        <li><img src="image/newspic5.png" alt=""/></li>
+        <li><img src="image/newspic1.png" alt=""/></li>
+        <li><img src="image/newspic2.png" alt=""/></li>
+        <li><img src="image/newspic3.png" alt=""/></li>
+        <li><img src="image/newspic4.png" alt=""/></li>
+        <li><img src="image/newspic5.png" alt=""/></li>
+    </ul>
 </div>
+
+<!--<div class="slider">-->
+    <!--<div id="carousel-generic" class="carousel slide" data-ride="carousel">-->
+        <!--&lt;!&ndash; Wrapper for slides &ndash;&gt;-->
+        <!--<div class="carousel-inner" role="listbox"> </div>-->
+        <!--<div class="silderThun"><div class="wrap"></div> </div>-->
+    <!--</div>-->
+    <!--<div class="switch">-->
+        <!--<div class="upside-left left">left</div>-->
+        <!--<div class="upside-right right">right</div>-->
+        <!--<div class="downside-left left">left</div>-->
+        <!--<div class="downside-right right">right</div>-->
+        <!--<div class="curindicator"></div>-->
+    <!--</div>-->
+<!--</div>-->git
 <script>
-
     $(function () {
-
-        var smSilderconfig = {
-            "imgData":[
-                {"src":"image/newspic1.png"},
-                {"src":"image/newspic2.png"},
-                {"src":"image/newspic3.png"},
-                {"src":"image/newspic4.png"},
-                {"src":"image/newspic5.png"},
-                {"src":"image/newspic1.png"},
-                {"src":"image/newspic2.png"},
-                {"src":"image/newspic3.png"},
-                {"src":"image/newspic4.png"},
-                {"src":"image/newspic5.png"}
-            ],
-            "scroll_offset":115//小图偏右scroll_offset减，小图偏左scroll_offset加,便宜和具体的silder的宽度有关系
-
-        };
-        //初始化SmSilder
-        initSmSilder(smSilderconfig);
+        $(".slider").smsilder();
     })
 </script>
 </body>
