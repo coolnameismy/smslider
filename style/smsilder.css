@@ -46,7 +46,7 @@
 
 }
 .slider .silderThun .wrap{
-    word-wrap: break-word;
+    /*word-wrap: break-word;*/
     white-space: nowrap;
     
 }
